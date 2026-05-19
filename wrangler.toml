@@ -1,0 +1,12 @@
+name = "novaverse-esports"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+[[kv_namespaces]]
+binding = "NOVAVERSE_KV"
+id = "YOUR_KV_NAMESPACE_ID"
+
+# Steps to set up KV:
+# 1. Run: npx wrangler kv:namespace create NOVAVERSE_KV
+# 2. Copy the id shown in output and replace YOUR_KV_NAMESPACE_ID above
+# 3. Set ADMIN_PASSWORD in Cloudflare Pages dashboard > Settings > Environment Variables
